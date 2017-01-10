@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B183D9BA1E23C6B3000C4F41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B183D9B91E23C6B3000C4F41 /* main.m */; };
+		B183D9BD1E23C6B3000C4F41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B183D9BC1E23C6B3000C4F41 /* AppDelegate.m */; };
+		B183D9C01E23C6B3000C4F41 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B183D9BF1E23C6B3000C4F41 /* ViewController.mm */; };
+		B183D9C31E23C6B3000C4F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B183D9C11E23C6B3000C4F41 /* Main.storyboard */; };
+		B183D9C51E23C6B3000C4F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B183D9C41E23C6B3000C4F41 /* Assets.xcassets */; };
+		B183D9C81E23C6B3000C4F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B183D9C61E23C6B3000C4F41 /* LaunchScreen.storyboard */; };
+		B183D9D31E23C6B3000C4F41 /* IGListKit_ComponentKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B183D9D21E23C6B3000C4F41 /* IGListKit_ComponentKitTests.m */; };
+		B183D9DE1E23C6B3000C4F41 /* IGListKit_ComponentKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B183D9DD1E23C6B3000C4F41 /* IGListKit_ComponentKitUITests.m */; };
+		B183D9EF1E23DD6B000C4F41 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9EE1E23DD6B000C4F41 /* ComponentKit.framework */; };
+		B183D9F11E23DD75000C4F41 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9F01E23DD75000C4F41 /* IGListKit.framework */; };
+		B183D9F41E23DE09000C4F41 /* CKComponentSectionController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B183D9F31E23DE09000C4F41 /* CKComponentSectionController.mm */; };
+		B183D9F51E24297C000C4F41 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9F01E23DD75000C4F41 /* IGListKit.framework */; };
+		B183D9F61E24297C000C4F41 /* IGListKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9F01E23DD75000C4F41 /* IGListKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B183D9F71E24297C000C4F41 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9EE1E23DD6B000C4F41 /* ComponentKit.framework */; };
+		B183D9F81E24297C000C4F41 /* ComponentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B183D9EE1E23DD6B000C4F41 /* ComponentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B183D9CF1E23C6B3000C4F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B183D9AD1E23C6B2000C4F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B183D9B41E23C6B2000C4F41;
+			remoteInfo = "IGListKit-ComponentKit";
+		};
+		B183D9DA1E23C6B3000C4F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B183D9AD1E23C6B2000C4F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B183D9B41E23C6B2000C4F41;
+			remoteInfo = "IGListKit-ComponentKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B183D9F91E24297C000C4F41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B183D9F61E24297C000C4F41 /* IGListKit.framework in Embed Frameworks */,
+				B183D9F81E24297C000C4F41 /* ComponentKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B183D9B51E23C6B3000C4F41 /* IGListKit-ComponentKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGListKit-ComponentKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B183D9B91E23C6B3000C4F41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B183D9BB1E23C6B3000C4F41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B183D9BC1E23C6B3000C4F41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B183D9BE1E23C6B3000C4F41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B183D9BF1E23C6B3000C4F41 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B183D9C21E23C6B3000C4F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B183D9C41E23C6B3000C4F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B183D9C71E23C6B3000C4F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B183D9C91E23C6B3000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B183D9CE1E23C6B3000C4F41 /* IGListKit-ComponentKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IGListKit-ComponentKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B183D9D21E23C6B3000C4F41 /* IGListKit_ComponentKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListKit_ComponentKitTests.m; sourceTree = "<group>"; };
+		B183D9D41E23C6B3000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B183D9D91E23C6B3000C4F41 /* IGListKit-ComponentKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IGListKit-ComponentKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B183D9DD1E23C6B3000C4F41 /* IGListKit_ComponentKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListKit_ComponentKitUITests.m; sourceTree = "<group>"; };
+		B183D9DF1E23C6B3000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B183D9EE1E23DD6B000C4F41 /* ComponentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComponentKit.framework; path = Carthage/Build/iOS/ComponentKit.framework; sourceTree = "<group>"; };
+		B183D9F01E23DD75000C4F41 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
+		B183D9F21E23DE09000C4F41 /* CKComponentSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKComponentSectionController.h; sourceTree = "<group>"; };
+		B183D9F31E23DE09000C4F41 /* CKComponentSectionController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKComponentSectionController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B183D9B21E23C6B2000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183D9F51E24297C000C4F41 /* IGListKit.framework in Frameworks */,
+				B183D9F71E24297C000C4F41 /* ComponentKit.framework in Frameworks */,
+				B183D9EF1E23DD6B000C4F41 /* ComponentKit.framework in Frameworks */,
+				B183D9F11E23DD75000C4F41 /* IGListKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9CB1E23C6B3000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9D61E23C6B3000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B183D9AC1E23C6B2000C4F41 = {
+			isa = PBXGroup;
+			children = (
+				B183D9B71E23C6B3000C4F41 /* IGListKit-ComponentKit */,
+				B183D9D11E23C6B3000C4F41 /* IGListKit-ComponentKitTests */,
+				B183D9DC1E23C6B3000C4F41 /* IGListKit-ComponentKitUITests */,
+				B183D9ED1E23DD54000C4F41 /* Frameworks */,
+				B183D9B61E23C6B3000C4F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B183D9B61E23C6B3000C4F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9B51E23C6B3000C4F41 /* IGListKit-ComponentKit.app */,
+				B183D9CE1E23C6B3000C4F41 /* IGListKit-ComponentKitTests.xctest */,
+				B183D9D91E23C6B3000C4F41 /* IGListKit-ComponentKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B183D9B71E23C6B3000C4F41 /* IGListKit-ComponentKit */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9BB1E23C6B3000C4F41 /* AppDelegate.h */,
+				B183D9BC1E23C6B3000C4F41 /* AppDelegate.m */,
+				B183D9BE1E23C6B3000C4F41 /* ViewController.h */,
+				B183D9BF1E23C6B3000C4F41 /* ViewController.mm */,
+				B183D9F21E23DE09000C4F41 /* CKComponentSectionController.h */,
+				B183D9F31E23DE09000C4F41 /* CKComponentSectionController.mm */,
+				B183D9C11E23C6B3000C4F41 /* Main.storyboard */,
+				B183D9C41E23C6B3000C4F41 /* Assets.xcassets */,
+				B183D9C61E23C6B3000C4F41 /* LaunchScreen.storyboard */,
+				B183D9C91E23C6B3000C4F41 /* Info.plist */,
+				B183D9B81E23C6B3000C4F41 /* Supporting Files */,
+			);
+			path = "IGListKit-ComponentKit";
+			sourceTree = "<group>";
+		};
+		B183D9B81E23C6B3000C4F41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9B91E23C6B3000C4F41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B183D9D11E23C6B3000C4F41 /* IGListKit-ComponentKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9D21E23C6B3000C4F41 /* IGListKit_ComponentKitTests.m */,
+				B183D9D41E23C6B3000C4F41 /* Info.plist */,
+			);
+			path = "IGListKit-ComponentKitTests";
+			sourceTree = "<group>";
+		};
+		B183D9DC1E23C6B3000C4F41 /* IGListKit-ComponentKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9DD1E23C6B3000C4F41 /* IGListKit_ComponentKitUITests.m */,
+				B183D9DF1E23C6B3000C4F41 /* Info.plist */,
+			);
+			path = "IGListKit-ComponentKitUITests";
+			sourceTree = "<group>";
+		};
+		B183D9ED1E23DD54000C4F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B183D9F01E23DD75000C4F41 /* IGListKit.framework */,
+				B183D9EE1E23DD6B000C4F41 /* ComponentKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B183D9B41E23C6B2000C4F41 /* IGListKit-ComponentKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B183D9E21E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKit" */;
+			buildPhases = (
+				B183D9B11E23C6B2000C4F41 /* Sources */,
+				B183D9B21E23C6B2000C4F41 /* Frameworks */,
+				B183D9B31E23C6B2000C4F41 /* Resources */,
+				B183D9F91E24297C000C4F41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IGListKit-ComponentKit";
+			productName = "IGListKit-ComponentKit";
+			productReference = B183D9B51E23C6B3000C4F41 /* IGListKit-ComponentKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B183D9CD1E23C6B3000C4F41 /* IGListKit-ComponentKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B183D9E51E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKitTests" */;
+			buildPhases = (
+				B183D9CA1E23C6B3000C4F41 /* Sources */,
+				B183D9CB1E23C6B3000C4F41 /* Frameworks */,
+				B183D9CC1E23C6B3000C4F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B183D9D01E23C6B3000C4F41 /* PBXTargetDependency */,
+			);
+			name = "IGListKit-ComponentKitTests";
+			productName = "IGListKit-ComponentKitTests";
+			productReference = B183D9CE1E23C6B3000C4F41 /* IGListKit-ComponentKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B183D9D81E23C6B3000C4F41 /* IGListKit-ComponentKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B183D9E81E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKitUITests" */;
+			buildPhases = (
+				B183D9D51E23C6B3000C4F41 /* Sources */,
+				B183D9D61E23C6B3000C4F41 /* Frameworks */,
+				B183D9D71E23C6B3000C4F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B183D9DB1E23C6B3000C4F41 /* PBXTargetDependency */,
+			);
+			name = "IGListKit-ComponentKitUITests";
+			productName = "IGListKit-ComponentKitUITests";
+			productReference = B183D9D91E23C6B3000C4F41 /* IGListKit-ComponentKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B183D9AD1E23C6B2000C4F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					B183D9B41E23C6B2000C4F41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					B183D9CD1E23C6B3000C4F41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B183D9B41E23C6B2000C4F41;
+					};
+					B183D9D81E23C6B3000C4F41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B183D9B41E23C6B2000C4F41;
+					};
+				};
+			};
+			buildConfigurationList = B183D9B01E23C6B2000C4F41 /* Build configuration list for PBXProject "IGListKit-ComponentKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B183D9AC1E23C6B2000C4F41;
+			productRefGroup = B183D9B61E23C6B3000C4F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B183D9B41E23C6B2000C4F41 /* IGListKit-ComponentKit */,
+				B183D9CD1E23C6B3000C4F41 /* IGListKit-ComponentKitTests */,
+				B183D9D81E23C6B3000C4F41 /* IGListKit-ComponentKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B183D9B31E23C6B2000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183D9C81E23C6B3000C4F41 /* LaunchScreen.storyboard in Resources */,
+				B183D9C51E23C6B3000C4F41 /* Assets.xcassets in Resources */,
+				B183D9C31E23C6B3000C4F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9CC1E23C6B3000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9D71E23C6B3000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B183D9B11E23C6B2000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183D9C01E23C6B3000C4F41 /* ViewController.mm in Sources */,
+				B183D9BD1E23C6B3000C4F41 /* AppDelegate.m in Sources */,
+				B183D9BA1E23C6B3000C4F41 /* main.m in Sources */,
+				B183D9F41E23DE09000C4F41 /* CKComponentSectionController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9CA1E23C6B3000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183D9D31E23C6B3000C4F41 /* IGListKit_ComponentKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B183D9D51E23C6B3000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183D9DE1E23C6B3000C4F41 /* IGListKit_ComponentKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B183D9D01E23C6B3000C4F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B183D9B41E23C6B2000C4F41 /* IGListKit-ComponentKit */;
+			targetProxy = B183D9CF1E23C6B3000C4F41 /* PBXContainerItemProxy */;
+		};
+		B183D9DB1E23C6B3000C4F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B183D9B41E23C6B2000C4F41 /* IGListKit-ComponentKit */;
+			targetProxy = B183D9DA1E23C6B3000C4F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B183D9C11E23C6B3000C4F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B183D9C21E23C6B3000C4F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B183D9C61E23C6B3000C4F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B183D9C71E23C6B3000C4F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B183D9E01E23C6B3000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B183D9E11E23C6B3000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B183D9E31E23C6B3000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "IGListKit-ComponentKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B183D9E41E23C6B3000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "IGListKit-ComponentKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B183D9E61E23C6B3000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IGListKit-ComponentKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListKit-ComponentKit.app/IGListKit-ComponentKit";
+			};
+			name = Debug;
+		};
+		B183D9E71E23C6B3000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IGListKit-ComponentKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListKit-ComponentKit.app/IGListKit-ComponentKit";
+			};
+			name = Release;
+		};
+		B183D9E91E23C6B3000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IGListKit-ComponentKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IGListKit-ComponentKit";
+			};
+			name = Debug;
+		};
+		B183D9EA1E23C6B3000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IGListKit-ComponentKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.IGListKit-ComponentKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IGListKit-ComponentKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B183D9B01E23C6B2000C4F41 /* Build configuration list for PBXProject "IGListKit-ComponentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183D9E01E23C6B3000C4F41 /* Debug */,
+				B183D9E11E23C6B3000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B183D9E21E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183D9E31E23C6B3000C4F41 /* Debug */,
+				B183D9E41E23C6B3000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B183D9E51E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183D9E61E23C6B3000C4F41 /* Debug */,
+				B183D9E71E23C6B3000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B183D9E81E23C6B3000C4F41 /* Build configuration list for PBXNativeTarget "IGListKit-ComponentKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183D9E91E23C6B3000C4F41 /* Debug */,
+				B183D9EA1E23C6B3000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B183D9AD1E23C6B2000C4F41 /* Project object */;
+}
